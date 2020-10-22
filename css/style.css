@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --light-color: #C1C8E4;
+  --dark-color-a: #5AB9EA;
+  --dark-color-b: #84CEEB;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+  font-size: 16px;
+  background: var(--light-color);
+}
+/* Sign Up Page */
+.home-container {
+  max-width: 500px;
+  margin: 80px auto;
+  color: #fff;
+}
+.home-header {
+  text-align: center;
+  background: var(--dark-color-a);
+  padding: 20px;
+  border-radius: 5px;
+}
+.home-main {
+  background: var(--dark-color-b);
+  padding: 30px 40px;
+}
+.home-main label {
+  display: block;
+  margin-bottom: 5px;
+}
+.home-main .form-control {
+  margin-bottom: 20px;
+}
+.home-main input[type=text]{
+  font-size: 16px;
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+}
+.home-main select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+.home-main button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: var(--dark-color-a);
+  color: #fff;
+  border-radius: 4px;
+}
